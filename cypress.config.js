@@ -33,7 +33,7 @@ module.exports = defineConfig({
   videosFolder: "cypress/videos", // Directory to save videos
   screenshotsFolder: "cypress/screenshots", // Directory to save screenshots
   env: {
-    BASIC_AUTH_USER: "admin",
-    BASIC_AUTH_PASS: "admin",
+    BASIC_AUTH_USER: "John Doe",
+    BASIC_AUTH_PASS: "ThisIsNotAPassword",
   },
 });
